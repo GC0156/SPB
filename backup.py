@@ -7,10 +7,11 @@ os.system("clear")
 
 
 
-username = "GC0156"
+username = ep_name = input(Fore.GREEN + "[?] " + Fore.WHITE + "Username: ")
 rep_name = input(Fore.GREEN + "[?] " + Fore.WHITE + "Repository Name: ")
 rep_url = f"https://github.com/{username}/{rep_name}.git"
-rep_local = f"C:/Users/Gui/Projects/{rep_name}"
+windows_user = input(Fore.GREEN + "[?] " + Fore.WHITE + "Windows Username: ")
+rep_local = f"C:/Users/{windows_user}/Projects/{rep_name}"
 
 
 
@@ -34,7 +35,7 @@ file2.write(str(commit_number2))
 
 
 
-#os.system("clear")
-#print(Fore.BLUE + "[!] " + Fore.WHITE + "Upload " + Fore.GREEN + "DONE" + Fore.WHITE + "!")
-#sleep(2)
-#os.system("clear")
+os.system("clear")
+print(Fore.BLUE + "[!] " + Fore.WHITE + "Upload " + Fore.GREEN + "DONE" + Fore.WHITE + "!")
+sleep(2)
+os.system("clear")
