@@ -4,7 +4,7 @@
 <h3>🔧 | Install</h3>
 <p>$<code>python3 -m pip install requests colorama pyquery</code></p>
 
-<h3>🔌 | How Use</h3>
+<h3>🔌 | How to Use</h3>
 <h4>Install Python Libraries</h4>
 <p><code>python3 main.py</code></p>
 <h4>Complete the Questions</h4>
